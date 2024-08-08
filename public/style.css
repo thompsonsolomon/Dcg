@@ -1,0 +1,14 @@
+/* :: 1.0 Import Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:700,800");
+@font-face {
+  font-family: classyttf;
+  src: url(./fonts/classy.ttf);
+}
+@font-face {
+  font-family: webfont;
+  src: url(./fonts/fontawesome-webfont.otf);
+}
+@font-face {
+  font-family: webfont2;
+  src: url(./fonts/fontawesome-webfont.ttf);
+}

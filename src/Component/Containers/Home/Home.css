@@ -1,0 +1,88 @@
+.overlay{
+  background-image: 
+  linear-gradient(
+     180deg,
+     transparent,
+     rgba(37, 37, 37, 0.61),
+     #111
+   );
+     position: absolute;
+  height: 730px;
+  width: 100%;
+}
+.image{
+  height: 730px;
+  background-image: url("../../Asset/bg-img/1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-pack: center;
+  align-items: center;
+  width: 100%;
+}
+
+ .HeropageImgCon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: fit-content;
+}
+
+ .HeroTextCon{
+  position: absolute;
+  margin-top: 90px;
+  color: white;
+}
+.HeroTextCon span{
+  color: white;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.3;
+}
+.HeaderSmallText{
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.HeaderButton{
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  transition-duration: 500ms;
+  outline: none;
+  font-size: 14px;
+  position: relative;
+  min-width: 150px;
+  height: 46px;
+  background-color: rgb(44, 2, 44);
+  border-radius: 3px;
+  padding: 0, 30px;
+  line-height: 46px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid transparent;
+  margin-top: 50px;
+}
+.HeaderButton a{
+  padding: 0 !important;
+  margin: 0 !important;
+  color: white !important;
+}
+
+@media (max-width:768px) {
+  .HeroTextCon span{
+    font-size: 50px;
+  }
+}
+.navContainer{
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+}

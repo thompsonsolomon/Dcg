@@ -1,0 +1,176 @@
+.footer-area .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-area .main-footer-area {
+  padding-top: 70px;
+  background-color: teal;
+}
+.footer-area .main-footer-area .single-footer-widget .footer-logo {
+  display: block;
+  margin-bottom: 40px;
+}
+.footer-area .main-footer-area .single-footer-widget p {
+  color: #c2c2c2;
+  margin-bottom: 0;
+}
+.footer-area .main-footer-area .single-footer-widget .widget-title {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.footer-area .main-footer-area .single-footer-widget .footer-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.footer-area .main-footer-area .single-footer-widget .footer-menu ul li {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  width: 50%;
+}
+.footer-area .main-footer-area .single-footer-widget .footer-menu ul li a {
+  font-size: 14px;
+  color: #c2c2c2 !important;
+  font-weight: 600;
+  padding: 7px 0;
+  display: block;
+}
+.footer-area
+  .main-footer-area
+  .single-footer-widget
+  .footer-menu
+  ul
+  li
+  a:hover {
+  color: rgb(44, 2, 44) !important;
+}
+.footer-area .main-footer-area .single-footer-widget .single-latest-news {
+  margin-bottom: 30px;
+}
+.footer-area
+  .main-footer-area
+  .single-footer-widget
+  .single-latest-news:last-child {
+  margin-bottom: 0;
+}
+.footer-area .main-footer-area .single-footer-widget .single-latest-news a {
+  display: block;
+  color: #c2c2c2 !important;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.footer-area
+  .main-footer-area
+  .single-footer-widget
+  .single-latest-news
+  a:hover,
+.footer-area
+  .main-footer-area
+  .single-footer-widget
+  .single-latest-news
+  a:focus {
+  color: rgb(44, 2, 44) !important;
+}
+.footer-area .main-footer-area .single-footer-widget .single-latest-news p {
+  color: #636363;
+  font-style: italic;
+  margin-bottom: 0;
+}
+.footer-area .main-footer-area .single-footer-widget .single-latest-news p i {
+  color: rgb(11, 105, 139);
+}
+.footer-area .main-footer-area .single-footer-widget .contact-information p,
+.footer-area .main-footer-area .single-footer-widget .contact-information a {
+  color: #c2c2c2 !important;
+  font-size: 14px;
+  line-height: 1.2;
+  display: block;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer-area .main-footer-area .single-footer-widget .contact-information p i,
+.footer-area .main-footer-area .single-footer-widget .contact-information a i {
+  color: rgb(11, 105, 139) !important;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 25px;
+  flex: 0 0 25px;
+  max-width: 25px;
+  width: 25px;
+}
+.footer-area
+  .main-footer-area
+  .single-footer-widget
+  .contact-information
+  a:hover {
+  color: rgb(44, 2, 44) !important;
+}
+.footer-area .copywrite-area {
+  position: relative;
+
+  background-color: teal;
+  height: 50px;
+  width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .footer-area .copywrite-area {
+    height: auto;
+    padding: 15px 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footer-area .copywrite-area .copywrite-text {
+    text-align: center;
+  }
+}
+.footer-area .copywrite-area .copywrite-text p {
+  color: #c2c2c2;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 767px) {
+  .footer-area .copywrite-area .copywrite-text p {
+    font-size: 13px;
+  }
+}
+.footer-area .copywrite-area .copywrite-text p a:hover,
+.footer-area .copywrite-area .copywrite-text p a:focus {
+  color: rgb(11, 105, 139);
+}
+.footer-area .copywrite-area .footer-social-icon {
+  text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  .footer-area .copywrite-area .footer-social-icon {
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+.footer-area .copywrite-area .footer-social-icon a {
+  display: inline-block;
+  margin-left: 30px;
+  color: #959595 !important;
+  font-size: 14px;
+}
+.footer-area .copywrite-area .footer-social-icon a:hover,
+.footer-area .copywrite-area .footer-social-icon a:focus {
+  color: rgb(11, 105, 139) !important;
+}
+
+.Date {
+  color: #959595;
+}
+
+@media (max-width:768px) {
+  .footer-area .main-footer-area{
+    padding: 70px 20px 0px 20px;
+  }
+}

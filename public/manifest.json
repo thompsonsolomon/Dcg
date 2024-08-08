@@ -1,0 +1,25 @@
+{
+  "short_name": "DCG World",
+  "name": "Disciples Church of God for all Nation",
+  "icons": [
+    {
+      "src": "18.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/jpg"
+    },
+    {
+      "src": "18.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "18.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "rgb(44, 2, 44)",
+  "background_color": "#ffffff"
+}

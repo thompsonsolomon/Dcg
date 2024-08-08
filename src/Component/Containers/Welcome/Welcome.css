@@ -1,0 +1,226 @@
+.Welcome {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 90px;
+}
+.WelcomeCon {
+  width: 82%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.WelcomeText {
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 730px;
+}
+.WelcomeText h2 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+.WelcomeText p {
+  font-size: 16px;
+  color: #636363;
+  margin-bottom: 0;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.WelcomCardCon {
+  display: flex;
+  width: 100%;
+}
+
+.WelcomCardCon .CardCon {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.card {
+  width: fit-content;
+  max-width: 100%;
+  min-height: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.cardImg {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+  margin-bottom: 30px;
+}
+.cardImg img {
+  border-radius: 5px;
+  height:255px;
+  width: 100%;
+}
+.cardText {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  flex-direction: column;
+}
+.card {
+  width: 100%;
+}
+.card h2 {
+  font-weight: 700 !important;
+  margin-bottom: 15px;
+  transition-duration: 500ms;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+.cardText p {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 100%;
+  overflow-y: scroll !important;
+}
+
+.cardText p::-webkit-scrollbar {
+  width: 0px;
+}
+
+.read {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  color: #636363;
+}
+.read i {
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+/* Become a member section  */
+
+.BecomeMemberCon {
+  background-image: url("../../Asset/bg-img/bak\ \(19\).jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background-color: rgba(6, 6, 6, 0.7);
+}
+.watch {
+  background: -webkit-linear-gradient(left, rgba(6, 6, 6, 0.7), rgba(4, 9, 30, 0.8)), url("../../Asset/bg-img/1.jpg");
+  z-index: 1;
+  background-attachment: fixed;
+  background-color: rgba(6, 6, 6, 0.7);
+  background-position: center;
+  width: 100%;
+}
+.WatchCon{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:15vh 0  15vh 0;
+}
+.BecomeMembertextCon {
+  text-align: center;
+  width: 95%;
+}
+.WatchTextCon {
+  text-align: left;
+  width: 82%;
+  height: 100%;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.WatchTextCon h6 {
+  font-weight: 500;
+  text-transform: capitalize !important;
+}
+
+.BecomeMembertextCon h6 {
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.BecomeMembertextCon h2 {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.bg-overlay::after {
+  background-color: rgba(15, 6, 6, 0.7);
+  /* position: absolute; */
+  z-index: -1 !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+
+.BecomeMemberBtn {
+  /* -webkit-transition-duration: 500ms;
+  transition-duration: 1000ms; */
+  position: relative;
+  display: inline-block;
+  min-width: 150px;
+  height: 46px;
+  color: royalblue !important;
+  background-color: white;
+  border-radius: 3px;
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.BecomeMemberBtn:hover {
+  transition: all ease-in-out 1s;
+  color: white !important;
+  background-color: royalblue;
+  box-shadow: 0.5px 1px 2px 3px white;
+}
+
+@media (max-width: 768px) {
+  .WelcomCardCon .CardCon {
+    flex-direction: column;
+  }
+  .BecomeMemberCon {
+    padding: 20px 0;
+  }
+.BecomeMembertextCon {
+    width: 82%;
+  }
+  .BecomeMembertextCon h2 {
+    width: 100%;
+    font-size: 30px;
+  }
+}

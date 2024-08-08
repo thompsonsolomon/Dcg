@@ -1,0 +1,36 @@
+.Stream{
+    height: 100vh;
+}
+.Stream .Back {
+    font-size: 35px !important;
+    color: whitesmoke;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    cursor: pointer;
+    top: 10vh;
+    padding: 0px 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.Stream .Back i {
+    color: white;
+}
+.Stream{
+    height: 100vh;
+}
+.IframeHolder{
+    position: relative;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 100vh;
+    overflow: hidden;
+    padding: 50px ;
+    padding-top: "56.25%";
+}
+
+/* <iframe width="853" height="480" src="https://www.youtube.com/embed/NaqV0N0tTio" title=" " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */

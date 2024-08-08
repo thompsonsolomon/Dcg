@@ -1,0 +1,232 @@
+/*=========== breadcrumb_area css =============*/
+.breadcrumb_area {
+  padding: 110px 0px 90px;
+  background: #04091e;
+  overflow: hidden;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.br_image {
+  background: -webkit-linear-gradient(
+      left,
+      rgba(4, 9, 30, 0.8),
+      rgba(4, 9, 30, 0.8)
+    ),
+    url("../../Asset/bg-img/breadcrumb.jpg");
+  background: -o-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)),
+    url("../../Asset/bg-img/breadcrumb.jpg");
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(4, 9, 30, 0.8)),
+      to(rgba(4, 9, 30, 0.8))
+    ),
+    url("../../Asset/bg-img/breadcrumb.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(4, 9, 30, 0.8),
+      rgba(4, 9, 30, 0.8)
+    ),
+    url("../../Asset/bg-img/breadcrumb.jpg");
+}
+
+.page-cover-tittle {
+  display: block;
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.breadcrumb {
+  text-align: center;
+  background: transparent !important;
+  padding: 0px;
+  display: inline-block;
+}
+
+.breadcrumb li {
+  display: inline-block;
+  color: #fff;
+}
+
+.breadcrumb li a {
+  color: #fff;
+}
+
+.breadcrumb i {
+  font-size: 12px;
+}
+
+.breadcrumb li + li:before {
+  content: "\e87a";
+  font-family: "Linearicons-Free";
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: middle;
+  margin: 0px 10px 0px 7px;
+}
+
+/*---------------------------------------------------- */
+
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/*=========== event_date_area css ==========*/
+.event_date_area {
+  background: #00c8e6;
+  padding: 100px 0px;
+}
+
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.evet_location {
+  color: #fff;
+}
+
+.evet_location h3 {
+  padding-bottom: 5px;
+}
+
+.evet_location p {
+  margin-bottom: 0px;
+}
+
+.evet_location p span {
+  padding-right: 12px;
+}
+
+.event_time {
+  color: #fff;
+  text-align: center;
+}
+
+.event_time h4 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.event_time .timer {
+  background: rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  padding: 27px 0px;
+}
+
+.event_time .timer .timer__section {
+  float: left;
+  overflow: hidden;
+  color: #fff;
+  width: calc(100% / 4);
+}
+
+.event_time .timer .timer__section .timer__number {
+  font: 600 36px/45px "Poppins", sans-serif;
+}
+
+.event_time .timer .timer__section .timer__label {
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+/*========== event_blog_area css ==========*/
+.event_title {
+  font-size:20px;
+  line-height: 30px;
+  color: #222222;
+  font-weight: 600;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.event_title:hover {
+  color: #00c8e6;
+}
+
+.event_post img {
+  max-width: 100%;
+}
+
+.event_post img{
+  height:255px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+
+.event_post .event_category {
+  padding-bottom: 20px;
+}
+
+.event_category li {
+  padding-bottom: 8px;
+}
+
+.event_category li i {
+  font-weight: 600;
+  color: #222222;
+}
+
+.ministries_info {
+  margin-bottom: -44px;
+}
+
+.ministries_info .event_post {
+  margin-bottom: 44px;
+}
+
+.ministries_info .event_post p {
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+/*========== event_two css ==========*/
+.event_two {
+  justify-content: center;
+  align-items: center;
+}
+
+.event_two .event_post {
+  margin-bottom: 50px;
+}
+
+/*============ event_details_area css ==========*/
+.event_details_area .event_category {
+  padding: 0px;
+}
+
+.event_details {
+  padding-top: 16px;
+}
+
+.event_details p {
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+.list_style{
+  border-top: 0.5px solid #e5e5e5;
+  padding-top:10px;
+}
+.list_style li i {
+  color: rgb(11, 105, 139);
+  padding: 0px 15px 0px 0px;
+}
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/

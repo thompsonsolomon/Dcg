@@ -1,0 +1,121 @@
+.HomePage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 90px;
+}
+
+.HomePageCon {
+  width: 82%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.HomePageText {
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 730px;
+}
+
+.HomePage h2 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.HomePage p {
+  font-size: 16px;
+  color: #636363;
+  margin-bottom: 0;
+  line-height: 1.8;
+  font-weight: 400;
+}
+.sermons-thumbnail{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.SermonImg{
+  height:255px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.single-latest-sermons{
+ margin: 0px 5px;
+ height: 90%;
+}
+.CardCon{
+  gap: 0px;
+  margin-top: 50px;
+}
+.card{
+  border: none !important;
+}
+.SermonCard {
+  width: 100%;
+  margin-top: 75px;
+  border: none;
+}
+
+.SermonIconCon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.SermonIconCon i {
+  color: #636363;
+}
+
+.SermonTitle {
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e5e5;
+  padding:10px 0;
+  text-align: left;
+  margin-bottom: 0;
+  color: #1f1f2c;
+}
+
+.SermonInfo {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  color: #636363;
+
+}
+
+.SermonInfo span {
+  padding: 10px 0px;
+}
+
+.SermonInfo i {
+  width: 15px;
+  color: rgb(11, 105, 139);
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.SermonInfotitle {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(0 0 0 / 40%);
+}
+
+.SermonInfoName {
+  font-style: italic;
+  color: #636363;
+  font-size: 14px;
+  /* line-height: 1.8; */
+  font-weight: 500;
+}

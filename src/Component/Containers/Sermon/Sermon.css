@@ -1,0 +1,141 @@
+/* :: 14.0 Sermons Area CSS */
+.sermons-content-area {
+  position: relative;
+  margin-bottom: -106px;
+}
+@media only screen and (max-width: 767px) {
+  .sermons-content-area {
+    margin-bottom: 150px;
+  }
+}
+.sermons-content-area .sermons-text {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15);
+  padding: 5% 8%;
+  top: -206px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sermons-content-area .sermons-text {
+    width: 90%;
+    left: 5%;
+    right: 5%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sermons-content-area .sermons-text {
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    top: 50px;
+    padding: 30px 15px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .sermons-content-area .sermons-text {
+    padding: 50px 30px;
+  }
+}
+.sermons-content-area .sermons-text h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sermons-content-area .sermons-text h2 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sermons-content-area .sermons-text h2 {
+    font-size: 24px;
+  }
+}
+.sermons-content-area .sermons-text p {
+  font-size: 16px;
+  text-align: left;
+}
+.sermons-content-area .sermons-text .sermons-meta-data p {
+  margin-right: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+.sermons-content-area .sermons-text .sermons-meta-data p i {
+  color: rgb(44, 2, 44);
+}
+.sermons-content-area .sermons-text .sermons-cata {
+  position: relative;
+  margin-bottom: 15px;
+}
+/* .sermons-content-area .sermons-text .sermons-cata  { */
+  /* display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+  border: 2px solid #ebebeb;
+  color: #959595;
+  border-radius: 50%;
+  line-height: 28px;
+  text-align: center;
+} */
+.sermons-content-area .sermons-text .sermons-cata a:hover {
+  color: #ffffff;
+  background-color: rgb(44, 2, 44);
+  border-color: rgb(44, 2, 44);
+}
+.sermons-content-area .sermons-text .read-more-share .read-more-btn{
+  margin-top: 30px;
+}
+.sermons-content-area .sermons-text .read-more-share .read-more-btn a {
+  font-weight: 700;
+
+  color: #959595 !important;
+}
+.sermons-content-area .sermons-text .read-more-share .read-more-btn a i {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+.sermons-content-area .sermons-text .read-more-share .read-more-btn a:hover,
+.sermons-content-area .sermons-text .read-more-share .read-more-btn a:focus {
+  color: rgb(44, 2, 44);
+}
+.sermons-content-area .sermons-text .read-more-share .read-more-btn a:hover i,
+.sermons-content-area .sermons-text .read-more-share .read-more-btn a:focus i {
+  padding-left: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .sermons-content-area .sermons-text .read-more-share .share {
+    margin-top: 30px;
+  }
+}
+.sermons-content-area .sermons-text .read-more-share .share span,
+.sermons-content-area .sermons-text .read-more-share .share a {
+  color: #959595 !important;
+  padding: 0 10px;
+  font-size: 14px;
+}
+.sermons-content-area .sermons-text .read-more-share .share span:hover,
+.sermons-content-area .sermons-text .read-more-share .share span:focus,
+.sermons-content-area .sermons-text .read-more-share .share a:hover,
+.sermons-content-area .sermons-text .read-more-share .share a:focus {
+  color: rgb(44, 2, 44);
+}
+@media only screen and (max-width: 767px) {
+  .sermons-content-area .sermons-text .read-more-share .share span,
+  .sermons-content-area .sermons-text .read-more-share .share a {
+    padding: 0 5px;
+  }
+}
+
+
+.ThumbnaiImg{
+  width: 100%;
+  /* height:auto; */
+  vertical-align: middle;
+  height: 550px;
+}
